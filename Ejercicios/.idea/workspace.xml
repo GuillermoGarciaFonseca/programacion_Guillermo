@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f09ae28d-b16f-477a-bebe-9b7ff81d7cc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factura.java" afterDir="false" />
+    <list default="true" id="f09ae28d-b16f-477a-bebe-9b7ff81d7cc6" name="Changes" comment="6 ejercicio">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ComparNumeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompararLogica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Programaexamenprojecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/baravnazado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/circunferencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compararpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio3examen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/numerosclase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ejercicios/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicios/Factura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bar_cobro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bar_cobro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/comprajava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comprajava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +41,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.Programaexamenprojecto">
+    <configuration name="FormatoPersonas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FormatoPersonas" />
+      <module name="Ejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Programaexamenprojecto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programaexamenprojecto" />
+      <module name="Ejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bar_cobro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bar_cobro" />
+      <module name="Ejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="compararpar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compararpar" />
+      <module name="Ejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="comprajava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comprajava" />
+      <module name="Ejercicios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Programaexamenprojecto" />
+        <item itemvalue="Application.compararpar" />
+        <item itemvalue="Application.comprajava" />
+        <item itemvalue="Application.bar_cobro" />
+        <item itemvalue="Application.FormatoPersonas" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +103,49 @@
       <option name="presentableId" value="Default" />
       <updated>1664967561027</updated>
     </task>
+    <task id="LOCAL-00001" summary="primer ejercicio">
+      <created>1664969237907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664969237907</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Segundo ejercicio">
+      <created>1664970236491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664970236491</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tercer ejercicio">
+      <created>1664972264899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664972264899</updated>
+    </task>
+    <task id="LOCAL-00004" summary="5 ejercicio">
+      <created>1665045851002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665045851002</updated>
+    </task>
+    <task id="LOCAL-00005" summary="5 ejercicio">
+      <created>1665070588321</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665070588321</updated>
+    </task>
+    <task id="LOCAL-00006" summary="6 ejercicio">
+      <created>1665083663513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665083663513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -58,5 +158,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="primer ejercicio" />
+    <MESSAGE value="Segundo ejercicio" />
+    <MESSAGE value="tercer ejercicio" />
+    <MESSAGE value="5 ejercicio" />
+    <MESSAGE value="6 ejercicio" />
+    <option name="LAST_COMMIT_MESSAGE" value="6 ejercicio" />
   </component>
 </project>
