@@ -9,6 +9,8 @@ public class alzheimer {
         String nombre = lecturaTeclado.nextLine();
         System.out.println("¿Que grado de alzheimer tiene su familiar o amigo?");
         int numero = lecturaTeclado.nextInt();
+        System.out.println("¿Cual es tu problema");
+        String problema = lecturaTeclado.nextLine();
 
     }
 
