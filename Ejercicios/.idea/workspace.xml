@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09ae28d-b16f-477a-bebe-9b7ff81d7cc6" name="Changes" comment="6 ejercicio">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompararLogica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programaexamenprojecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/baravnazado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circunferencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/compararpar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejercicio3examen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/numerosclase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ejercicios/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ejercicios/Factura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bar_cobro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bar_cobro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/comprajava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/comprajava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../projecto1/src/alzheimer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
