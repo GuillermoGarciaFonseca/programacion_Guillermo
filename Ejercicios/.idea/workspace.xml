@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09ae28d-b16f-477a-bebe-9b7ff81d7cc6" name="Changes" comment="6 ejercicio">
-      <change afterPath="$PROJECT_DIR$/../projecto1/src/alzheimer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/ejercicio4basearray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/ejercicio6basearrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/ejerciciochampions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/frasearray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/operacionesarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/sumarrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
