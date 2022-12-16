@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class numeros {
     public static void main(String[] args) {
@@ -14,4 +14,4 @@ public class numeros {
        }
     }
 
-}
+}*/

@@ -1,97 +1,184 @@
-import java.util.Random;
 import java.util.Scanner;
-
-/*public class ahorcado {
-    public static void main(String[] args) {
-        final int  intentos_totales =8;
-        int intentos = 0;
-        int aciertos = 0;
-        Scanner lecturaTeclado = new Scanner(System.in);
-        lecturaTeclado.useDelimiter("\n");
-        char resp;
-        Random rnd =new Random();
-        String arraypalabras[] = new String[2];
-        arraypalabras[0]= "casa";
-        arraypalabras[1]="camaleon";
-        do {
-            int aleatorio = rnd.nextInt(3);
-            char[] desguazada = desguaza(arrayPalabras[alea]);
-            char[] copia = desguaza(arrayPalabras[alea]); // Algo auxiliar para mas tarde
-            // Array para pintar mierdecillas en pantalla(Guiones o letras vamos)
-            char[] tusRespuestas = new char[desguazada.length];
-
-            // Rellenamos palabras ocn guiones
-            for(int i = 0; i < tusRespuestas.length; i++){
-                tusRespuestas[i] = '_';
+public class ahorcado{
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
+        int intentos=8,W=0;
+        boolean verdad=true,w=true;
+        int rep=0;
+        System.out.println("Bienvenido al juego del ahorcado");
+        System.out.println("Ingrese palabra");
+        String palabra=in.nextLine();
+        System.out.println("\n\n");
+        String letra[]=new String[5];
+        String [] letras =palabra.split("");
+        String intento[] = new String[letras.length];
+        String ingresadas[] = new String[letras.length];
+        W=letras.length-1;
+        for(int i=0;i<25;i++){System.out.println("");}
+        for(int i=1;i<letras.length;i++){
+            intento[i]="_ ";
+        }
+        while(intentos>0) {
+            System.out.println("Ingrese letra");
+            for(int i=1;i<letras.length;i++) {
+                System.out.print(intento[i]);
             }
-
-            // Empezamos a pintar mierdas en pantalla
-            System.out.println("Adivina la palabra!");
-
-            // Mientras que no nos pasemos con los intentos y no la acertemos...
-            while(intentos < INTENTOS_TOTALES && aciertos != tusRespuestas.length){
-                imprimeOculta(tusRespuestas);
-
-                System.out.println("\nIntroduce una letra: ");
-                resp = teclado.next().toLowerCase().charAt(0);
-                // Recorremos el array y comprobamos si se ha producido un acierto
-                for(int i = 0; i < desguazada.length; i++){
-                    if(desguazada[i]==resp){
-                        tusRespuestas[i] = desguazada[i];
-                        desguazada[i] = ' ';
-                        aciertos++;
-                    }
-                }
-                intentos++;
-            }
-            // Si hemos acertado todas imprimimos un mensahe
-            if(aciertos == tusRespuestas.length){
-                System.out.print("\nFalocidades!! has acertado la palabra: ");
-                imprimeOculta(tusRespuestas);
-            }
-            // Si no otro
-            else{
-                System.out.print("\nMenudo ceporro eres! la palabra era: ");
-                for(int i = 0; i < copia.length; i++){
-                    System.out.print(copia[i] + " ");
+            System.out.println("");
+            letra[0]=in.nextLine();rep=0;boolean aviso=true;
+            for(int i=1;i<letras.length;i++) {
+                w=true;
+                if(letras[i].equals(letra[0]))
+                {
+                    if(!intento[i].equals(letra[0])){
+                        intento[i]=letra[0];
+                        verdad=false;
+                        rep++; ingresadas[i]=letras[0];
+                    }else{aviso=false;verdad=false;}
                 }
             }
-            // Reseteamos contadores
-            intentos = 0;
-            aciertos = 0;
-
-            resp = pregunta("\n\nQuieres volver a jugar?",teclado);
-        }while(resp != 'n');
-
-    }
-
-
-    private static char[] desguaza(String palAzar){
-        char[] letras;
-        letras = new char[palAzar.length()];
-        for(int i = 0; i < palAzar.length(); i++){
-            letras[i] = palAzar.charAt(i);
-        }
-        return letras;
-    }
-
-
-    private static void imprimeOculta(char[] tusRespuestas){
-
-        for(int i = 0; i < tusRespuestas.length; i++){
-            System.out.print(tusRespuestas[i] + " ");
+            if(aviso==false) {
+                System.out.println(" Aviso: Ya ingresaste esa letra ");
+            }
+            aviso=true;
+            if(verdad==true){
+                intentos--;
+            }
+            else{W=W-rep;}
+            System.out.println(" \nQuedan: "+intentos+" Intentos");
+            impresion(intentos);
+            if(intentos==0) {
+                System.out.println("\nLastima Perdiste\nLa palabra es: "+palabra);
+            }
+            if(W<=0){
+                System.out.println(palabra+"\nFelicidades ganaste, Bien echo.");intentos=0;}
+            verdad=true;rep=0;
         }
     }
-
-
-    public static char pregunta(String men, Scanner teclado) {
-        char resp;
-        System.out.println(men+" (s/n");
-        resp = teclado.next().toLowerCase().charAt(0);
-        while (resp != 's'&& resp != 'n'){
-            System.out.println("Errpr! solo se admite S o N");
-            resp = teclado.next().toLowerCase().charAt(0);
+    static void impresion(int vd) {
+        if(vd==8) {
+            System.out.println("prueba otra letra ");
+            System.out.println("    |   |   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }if(vd==7) {
+            System.out.println("Suerte a la próxima la aciertas");
+            System.out.println("    |   |   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }if(vd==6) {
+            System.out.println("A la siguiente te cuenta");
+            System.out.println("    |   |   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
         }
-        return resp;
+        if(vd==5) {
+            System.out.println("    -----   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }
+        if(vd==4) {
+            System.out.println("    -----   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   0   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }
+        if(vd==3) {
+            System.out.println("    -----   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   0   ");
+            System.out.println("    |  /    ");
+            System.out.println("    |       ");
+            System.out.println("    |    \\ ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }
+        if(vd==2) {
+            System.out.println("    -----   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   0   ");
+            System.out.println("    |  /|   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |    \\ ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }
+        if(vd==1) {
+            System.out.println("    -----   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   0   ");
+            System.out.println("    |   |\\ ");
+            System.out.println("    |   |   ");
+            System.out.println("    |  / \\   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }
+        if(vd==0)
+        {
+            System.out.println("    -----   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   |   ");
+            System.out.println("    |   0   ");
+            System.out.println("    |  /|\\ ");
+            System.out.println("    |   |   ");
+            System.out.println("    |  / \\   ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("    |       ");
+            System.out.println("------------");
+        }
     }
-}*/
+}
