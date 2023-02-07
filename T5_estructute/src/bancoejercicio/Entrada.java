@@ -2,46 +2,65 @@ package bancoejercicio;
 
 import java.util.Scanner;
 
-public class Entrada {
+public class EntradaMenu {
+
     public static void main(String[] args) {
-        Agenda2 agendaTrabajo= new Agenda2();
-        //listaPersona[]
-        Agenda2 agendaAmigos = new Agenda2();
+        Scanner lecturaTeclado = new Scanner(System.in);
+        String dniTemporal = "";
+        int opcionSeleccionada = 0;
+        Agenda agenda = new Agenda();
 
-       /* agendaTrabajo.agregarPersona(new Persona("Carlos","ASDADA2",47854784,"Hoyo"));
-        agendaTrabajo.buscarPersona("");
-    agendaTrabajo.borrarPersona("");
-    agendaTrabajo.actualizarPersona("",new Persona("","",212,""));*/
-        Scanner in = new Scanner(System.in);
-        int opcion = 0;
-        System.out.println("1. Añadir persona");
-        System.out.println("2. Buscar persona");
-        System.out.println("3. Borrar persona");
-        System.out.println("4. Listar persona");
-        System.out.println("5. Vaciar lista");
-        System.out.println("6. Editar persona");
-        System.out.println("7. Salir");
-        System.out.println("****************");
-        System.out.println("Buenas dime un opcion");
-        opcion= in.nextInt();
-        switch (opcion){
-            case 1:
-                String nombre,apellidos,dni;
-                int telefono;
-                agendaTrabajo.agregarPersona(){
+        do {
 
-                System.out.println("Dime tu nombre");
-                nombre= in.next();
-                System.out.println("Dime tus apellidos");
-                apellidos=in.next();
-                System.out.println("Dime tu DNI");
-                dni=in.next();
-                System.out.println("Dime tu numero");
-                telefono=in.nextInt();
-            }break;
-            case 2:
+            System.out.println("1: Agregar persona a la agenda\n" +
+                    "2: Borrar persona\n" +
+                    "3: Editar persona\n" +
+                    "4: Buscar persona\n" +
+                    "5: Listar agenda \n" +
+                    "6: Vaciar agenda");
+            System.out.println("Introduce la opcion seleccionada");
+            opcionSeleccionada = lecturaTeclado.nextInt();
+            switch (opcionSeleccionada) {
+                case 1:
+                    System.out.println("Dime el dni de la persona que quieres agregar");
+                    dniTemporal = lecturaTeclado.next();
+                    if (agenda.existePersona(dniTemporal)!=null){
+                        System.out.println("La persona no se puede add porque existe el dni");
+                    }else {
+                        System.out.println("Dime el nombre de la persona que quieres agregar");
+                        String nombreTemporal = lecturaTeclado.next();
+                        System.out.println("Dime el apellido de la persona que quieres agregar");
+                        String apellidoTemporal = lecturaTeclado.next();
+                        System.out.println("Dime el telefono de la persona que quieres agregar");
+                        int telefonoTemporal = lecturaTeclado.nextInt();
+                        agenda.agregarPersona(new Persona(nombreTemporal,apellidoTemporal,dniTemporal,telefonoTemporal));
+                    }
 
-                break;
-        }while (opcion!=7);
+                    break;
+                case 2:
+                    System.out.println("Dime el dni de la persona que quieres borrar");
+                    dniTemporal = lecturaTeclado.next();
+                    agenda.borrarPersona(dniTemporal);
+                    break;
+                case 3:
+                    break;
+                case 4:
+                    System.out.println("Dime que dni quieres buscar");
+                    dniTemporal = lecturaTeclado.next();
+                    agenda.buscarPersona(dniTemporal);
+                    break;
+                case 5:
+                    agenda.listarAgenda();
+                    break;
+                case 6:
+                    agenda.vaciarAgenda();
+                    break;
+            }
+        }while (opcionSeleccionada!=7);
+
+
+
     }
+
+
 }

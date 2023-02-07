@@ -1,2 +1,4 @@
-package ejercicioEquipo;public class Entrada {
+package ejercicioEquipo;
+
+public class Entrada {
 }

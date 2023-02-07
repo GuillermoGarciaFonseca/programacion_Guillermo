@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class automatizacion {
+import java.awt.MouseInfo;
+import java.awt.Robot;
+import java.awt.event.InputEvent;
+pa
+public class automatizacion {
+    public static void main(String[] args) {
+        System.out.println("(" + MouseInfo.getPointerInfo().getLocation().x +  ", " + MouseInfo.getPointerInfo().getLocation().y + ")");
+    }
 }

@@ -27,7 +27,7 @@ public class Garaje {
             this.cocheActual=coche;
             this.averiaActual=averia;
         }
-        if (coche == null) {
+            if (coche == null) {
             
         }
         return cocheActual==null;

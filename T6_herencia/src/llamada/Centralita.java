@@ -1,2 +1,4 @@
-package llamada;public class Centralita {
+package llamada;
+
+public class Centralita {
 }

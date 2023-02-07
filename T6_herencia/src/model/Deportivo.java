@@ -1,2 +1,24 @@
-package model;public class Deportivo {
+package model;
+
+public class Deportivo extends Coche{
+private  int cv;
+private int par;
+public Deportivo(){
+
+}
+public Deportivo(String marca, String modelo, int cv,int par) {
+        super(marca, modelo);
+        this.cv=cv;
+        this.par=par;
+    }
+
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println("CV: "+this.cv);
+        System.out.println("Par: "+this.par);
+    }
+    public void acelerar(){
+        System.out.println("Acelerando el coche con par "+this.par);
+    }
 }
