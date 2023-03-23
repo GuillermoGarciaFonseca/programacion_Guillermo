@@ -39,4 +39,6 @@ public void MostrarDatos(){
     public void setDni(String dni) {
         this.dni = dni;
     }
+
+    public abstract void mostrarDatos();
 }

@@ -5,7 +5,7 @@ package model1;
 import java.util.ArrayList;
 
 public final class Centralita {
-private void listar;
+private int listar;
     private ArrayList<Llamada> listaLLamadas;
 private double costreacumulado;
     public Centralita() {

@@ -1,30 +1,48 @@
 package Trabajadores;
 
-import java.util.ArrayList;
+import constantes.Datosempresas;
 
-public final class Autonomo extends Trabajador{
-    private double cuotas;
-    public Autonomo(String nombre, String apellido, String dni, double sueldo, boolean contratado, double cuotas) {
-        super(nombre, apellido, dni, sueldo, contratado);
-        this.cuotas = cuotas;
-    }
+public final class Autonomo extends Trabajador {
 
-    @Override
-    public void MostrarDatos() {
-        super.MostrarDatos();
-        System.out.println("Sueldo: "+getSueldo());
-        System.out.println("Contratado: "+isContratado());
-        System.out.println("Numero de pagas: "+cuotas);
-    }
+    // nombre, apellido, dni, sueldo, contratado
+    private double cuotaSS;
+    private int ayudas;
 
     public Autonomo() {
     }
 
-    public double getCuotas() {
-        return cuotas;
+    public Autonomo(String nombre, String apellido, String dni, double sueldo, boolean contratado, double cuotaSS) {
+        super(nombre, apellido, dni, sueldo, contratado);
+        this.cuotaSS = cuotaSS;
     }
 
-    public void setCuotas(double cuotas) {
-        this.cuotas = cuotas;
+    @Override
+    public double calcularNetoAnual() {
+        double netoAnual = getSueldo() - (getSueldo() * Datosempresas.IVA_AUTONOMO) - (this.cuotaSS *12);
+        //System.out.println("Su neto anual es de "+netoAnual);
+        return netoAnual+ayudas;
+    }
+
+    public void pedirAyudas(){
+        int aletorio = (int) (Math.random()*2);
+        if (aletorio == 1){
+            if (aletorio == 1){
+                ayudas = (int) (Math.random()*201)+100;
+            }
+        }
+    }
+
+    @Override
+    public void mostrarDatos() {
+        super.mostrarDatos();
+        System.out.println("Numero pagas "+cuotaSS);
+    }
+
+    public double getCuotaSS() {
+        return cuotaSS;
+    }
+
+    public void setCuotaSS(double cuotaSS) {
+        this.cuotaSS = cuotaSS;
     }
 }

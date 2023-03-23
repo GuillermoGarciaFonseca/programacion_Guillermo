@@ -2,7 +2,11 @@ package Trabajadores;
 
 public interface Firectivo {
 
- abstract void  nombreDelMetodo()
+ //abs
+ //publico
+ // no static
+ // no finales
+ double emitirVoto(int voto);
 
 
 

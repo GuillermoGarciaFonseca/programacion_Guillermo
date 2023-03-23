@@ -8,6 +8,7 @@ public final class Empresa {
     private ArrayList<Jefe>listaJefe;
 
     private Trabajador trabajador;
+    private int votos;
 public Empresa(){
     listatrabajador=new ArrayList<>();
     listaJefe=new ArrayList<>();
@@ -56,4 +57,16 @@ private Trabajador estaTrabajador(String dni){
     }
     return null;
 }
+public void realizarVotacion(){
+    for (Persona persona :
+            listatrabajador) {
+        if (persona instanceof Firectivo) {
+            ((Firectivo)persona).emitirVoto((int) (Math.random()*10+1));
+            System.out.println("VOTO REGISTRADO");
+            votos+=((Firectivo)persona).emitirVoto((int) (Math.random()*10+1));
+        }
+
+    }
+}
+
 }

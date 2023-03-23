@@ -1,42 +1,46 @@
 package Trabajadores;
 
-import java.util.ArrayList;
+public final class Jefe extends Persona implements Firectivo{
 
-public final class Jefe extends Persona{
-    private double acciones,beneficios;
-private ArrayList<Persona>ListaJefes;
-    public Jefe(String nombre, String apellido, String dni, double acciones, double beneficios) {
+    public boolean Contratado;
+    private int acciones;
+    private double beneficios;
+    // nombre, dni, apellidos
+
+    private boolean contratado;
+
+    public Jefe() {
+    }
+
+    public Jefe(String nombre, String apellido, String dni, int acciones, double beneficios) {
         super(nombre, apellido, dni);
         this.acciones = acciones;
         this.beneficios = beneficios;
     }
-public Jefe(){}
-public boolean depedirTrabajador(Trabajador trabajador){
-        if (trabajador.isContratado()){
 
-        }
-    System.out.println();;
-
-    return false;
-}
-public void aplicardespido(String dni,Jefe jefe){
-        Trabajador trabajador=estatrabajador(dni);
-        if (trabajador!=null){
-
-        }
-}
     @Override
-    public void MostrarDatos() {
+    public void mostrarDatos() {
         super.MostrarDatos();
+        System.out.println("Beneficio: "+beneficios);
         System.out.println("Acciones: "+acciones);
-        System.out.println("Beneficios: "+beneficios);
     }
 
-    public double getAcciones() {
+    @Override
+    public double emitirVoto(int voto) {
+        return 0;
+    }
+
+    public void despedirTrabajador(Trabajador trabajador){
+        if (trabajador.isContratado()){
+            trabajador.setContratado(false);
+        }
+    }
+
+    public int getAcciones() {
         return acciones;
     }
 
-    public void setAcciones(double acciones) {
+    public void setAcciones(int acciones) {
         this.acciones = acciones;
     }
 
@@ -47,4 +51,5 @@ public void aplicardespido(String dni,Jefe jefe){
     public void setBeneficios(double beneficios) {
         this.beneficios = beneficios;
     }
+
 }
