@@ -1,8 +1,17 @@
 package controller;
 import database.Conexion;
 import database.schemaDB;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
@@ -140,5 +149,68 @@ public void borrarDatos() {
             throw new RuntimeException(e);
         }
     }
-}
+    public void arraylistUsuario(){
+        Scanner in= new Scanner(System.in);
+        ArrayList<Usuario> usuarios=new ArrayList<>();
+        String nombre ,apellido,correo;
+        int telefono;
+        for (Usuario usuario : usuarios) {
+            System.out.println("Dime tu nombre");
+            nombre=in.next();
+            System.out.println("Dime tu apellido");
+            apellido=in.next();
+            System.out.println("Dime tu correo");
+            correo=in.next();
+            System.out.println("Dime tu numero de telefono");
+            telefono=in.nextInt();
+            System.out.println(usuario);
+        }
+        
+        {
+
+        }
+    }
+    public void gelAllproducts(){
+        String urlString = "https://dummyjson.com/products";
+
+
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(String.format("INSERT INTO %s (%s, %s, %s, %s) VALUES (?,?,?,?)",
+                    schemaDB.TABLE_PRODUCTS,schemaDB.TABLE_NAME,schemaDB.COL_DESCROPTION,schemaDB.COL_CATEGORY,schemaDB.COL_PRICE));
+            URL url = new URL(urlString);
+            HttpURLConnection connectionHttp = (HttpURLConnection) url.openConnection();
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(connectionHttp.getInputStream()));
+            String linea = null;
+            StringBuilder builder = new StringBuilder();
+            while ((linea = bufferedReader.readLine())!= null){
+                builder.append(linea);
+            }
+            JSONObject objectResponse = new JSONObject(builder.toString());
+            JSONArray arrayProducts = objectResponse.getJSONArray("products");
+            for (int i = 0; i < arrayProducts.length(); i++) {
+                JSONObject producto = arrayProducts.getJSONObject(i);
+                String name = producto.getString("title");
+                String descrition = producto.getString("description");
+                String category = producto.getString("category");
+                int price = producto.getInt("price");
+                preparedStatement.setString(1,name);
+                preparedStatement.setString(2,descrition);
+                preparedStatement.setInt(3,price);
+                preparedStatement.setString(4,category);
+                preparedStatement.execute();
+            }
+
+
+
+        } catch (MalformedURLException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    }
+
 

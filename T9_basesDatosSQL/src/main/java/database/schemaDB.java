@@ -7,4 +7,11 @@ public interface schemaDB {
     String COL_SURNAME="apellido";
     String COL_EMAIL="correo";
     String COL_PHONE="telefono";
+
+
+
+    String TABLE_PRODUCTS   ="productos";
+    String COL_DESCROPTION= "descropcion";
+    String COL_PRICE="precio";
+    String COL_CATEGORY="categoria";
 }
