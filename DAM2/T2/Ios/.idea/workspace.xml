@@ -5,45 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="854f3fdb-510c-4a52-bc84-3dc9e1242638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Correo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/TablasMultiplicar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T2_Layout/src/main/resources/com/example/t2_layout/flecha-hacia-abajo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/src/main/java/org/example/database/GestionDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/src/main/java/org/example/model/Carton.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/src/main/java/org/example/model/Jugador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/EntradaObjeto.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/model/Usuario.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/model/Usuarioextendido.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/Entrada.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/Jugador.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/model/Fantasy.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/model/Jugador.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/model/Participantes.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/database/GestionDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/database/ScehemeDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/model/Alumno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/model/Profesor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/model/Proyectos.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Inicio/src/main/kotlin/Ejerciciosclase.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/database/GestionDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/database/ScehemeDB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/model/Gestionable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/model/Lista.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Llamada/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Mysql2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/PSp/src/main/kotlin/Padre.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/T1_FUNCIONESKT/src/main/kotlin/EjerciciosFunciones.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/T1_FUNCIONESKT/src/main/kotlin/Entrada.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/T1_FUNCIONESKT/src/main/kotlin/Listas.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Asalariado.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Autonomo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Constantes.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Jefe.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Trabajador.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trigonometria/src/main/kotlin/main.kt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Casa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Reloj/Reloj.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Reloj/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/TablaMultiplicar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/kotlin/com/example/demo1/HelloApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/kotlin/com/example/demo1/HelloController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo1/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ios.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Ios.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/CorreoKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/HelloApplicationKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/TablasMultiplicarKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/LayoutApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/LayoutApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -71,13 +69,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Guillermo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36206895",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTML"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.TablasMultiplicarKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="CorreoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ios.CorreoKt" />
+      <module name="Ios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ios.Reloj.MainKt" />
+      <module name="Ios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablaMultiplicarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ios.TablaMultiplicarKt" />
       <module name="Ios" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,6 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.TablaMultiplicarKt" />
         <item itemvalue="Kotlin.TablasMultiplicarKt" />
         <item itemvalue="Kotlin.CorreoKt" />
       </list>
