@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ecc3d4ec-a899-4051-9d20-e036faaa6483" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GuillermoGarcia/src/examenRestaurante/Pedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GuillermoGarcia/src/examenRestaurante/Restaurante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GuillermoGarcia/src/examenRestaurante/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/bancoejercicio/Entrada2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/bancoejercicio/agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/ejercicioEquipo/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/ejercicioEquipo/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/ejercicioEquipo/jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/trigonometria/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T5_estructute/src/trigonometria/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejerciciosvariados/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejerciciosvariados/src/adivinación.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejerciciosvariados/src/ahorcado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejerciciosvariados/src/amigoinvisible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejerciciosvariados/src/factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejerciciosvariados/src/menuarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asignaturas/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asignaturas/Asignatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asignaturas/Profesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio6/Aplicacion6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio6/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio6/Jugador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ejercicio6/Partido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prueba1/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prueba1/Garaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prueba1/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trigonometria/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trigonometria/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trigonometria/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio1212.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio1212.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio22.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio41.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicio41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicioforfactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/ejercicioforfactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/menuarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/menuarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/multiplicararray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/multiplicararray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/pdf3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/ExamenT3_T4/src/pdf3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/arrays/src/menuarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/arrays/src/menuarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_estructure/primeraevaluacionGuillermoGarciaFonseca/src/ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_hastables/src/ejercicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_hastables/src/ejercicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T4_hastables/src/entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T4_hastables/src/entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T5_estructute/src/bancoejercicio/Agenda2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T5_estructute/src/bancoejercicio/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T5_estructute/src/bancoejercicio/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T5_estructute/src/objeto2/Garaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T5_estructute/src/objeto2/Garaje.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T5_estructute/src/trigonometria/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T5_estructute/src/trigonometria/Triangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T5_estructute/src/trigonometria/circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T5_estructute/src/trigonometria/circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T_4arraysList/src/Ejerciciosbasearraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T_4arraysList/src/Ejerciciosbasearraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T_4arraysList/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T_4arraysList/src/Entrada.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KdRqli13HZNwLPJwAdHhVe89n5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guillermo/OneDrive/Documentos/programacion_Guillermo/practica&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ecc3d4ec-a899-4051-9d20-e036faaa6483" name="Changes" comment="" />
+      <created>1674302668099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674302668099</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

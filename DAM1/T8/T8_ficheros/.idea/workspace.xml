@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cd1d3fa-c7d0-4170-a588-d79112fa9c16" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../T7/Correccion_examen/src/model/Bicicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/Correccion_examen/src/model/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/Correccion_examen/src/model/Tamanio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/Correccion_examen/src/model/Tienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/Correccion_examen/src/model/Tipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/GuillermoGarciaFonseca2eva/src/Anidadas/Almacen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/GuillermoGarciaFonseca2eva/src/Bicicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/GuillermoGarciaFonseca2eva/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/GuillermoGarciaFonseca2eva/src/EnumbiciM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/GuillermoGarciaFonseca2eva/src/EnumbiciT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/GuillermoGarciaFonseca2eva/src/Tienda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Elemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/EnumCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/EnumDVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Prestable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Revista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Socio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Biblioteca/Trabajador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Herencia/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Herencia/Deportivo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Herencia/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T6_corrgeido/src/Herencia/Todoterreno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/ClaseColeccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/model1/Alimentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/model1/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/model1/Muebles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/model1/Productos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/model1/Ropa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T7/T7genericos/src/model1/Supermercado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OperacionesFicheros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/escritura.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/escritura_codigos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/codigo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/ejemploLocal1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/ejemploLocal3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/ejemplolocal2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/lore.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/secundario/secundario1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/secundario/secundario2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/tercero/terciario1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ficheros/tercero/terciario2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lectura" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Entrada.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Asalariados.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Asalariados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Autonomo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Autonomo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Firectivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Firectivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Jefe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Jefe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Trabajador.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/Trabajadores/Trabajador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/automatizacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/automatizacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/constantes/Datosempresas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/constantes/Datosempresas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T6_herencia/src/model1/Centralita.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_herencia/src/model1/Centralita.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MlkyDvAOWlWfefsuluwCaXdhIy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrada" />
+      <module name="T8_ficheros" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Entrada" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cd1d3fa-c7d0-4170-a588-d79112fa9c16" name="Changes" comment="" />
+      <created>1678349810308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678349810308</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/OperacionesFicheros.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

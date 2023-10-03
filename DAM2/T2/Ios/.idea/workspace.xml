@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="854f3fdb-510c-4a52-bc84-3dc9e1242638" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Correo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/TablasMultiplicar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T2_Layout/src/main/resources/com/example/t2_layout/flecha-hacia-abajo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/src/main/java/org/example/database/GestionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/src/main/java/org/example/model/Carton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Bingo/src/main/java/org/example/model/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/EntradaObjeto.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/model/Usuario.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Colecciones/src/main/kotlin/model/Usuarioextendido.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/Entrada.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/Jugador.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/model/Fantasy.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/model/Jugador.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/GuillermoGarciaFonsecaDAM2/src/main/kotlin/model/Participantes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/database/GestionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/database/ScehemeDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/model/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/model/Profesor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Guillermo_Garcia_DAM2/src/main/java/org/example/model/Proyectos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Inicio/src/main/kotlin/Ejerciciosclase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/database/GestionDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/database/ScehemeDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/model/Gestionable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/JAVAFX/src/main/java/org/example/model/Lista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Llamada/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Mysql2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/PSp/src/main/kotlin/Padre.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/T1_FUNCIONESKT/src/main/kotlin/EjerciciosFunciones.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/T1_FUNCIONESKT/src/main/kotlin/Entrada.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/T1_FUNCIONESKT/src/main/kotlin/Listas.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Asalariado.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Autonomo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Constantes.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Jefe.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trabajadores/src/main/kotlin/model/Trabajador.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../T1_INICIO/Trigonometria/src/main/kotlin/main.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2WFMZ0djoBRZ7zHBsq9O2FOuyPW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Kotlin.TablasMultiplicarKt">
+    <configuration name="CorreoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ios.CorreoKt" />
+      <module name="Ios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TablasMultiplicarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ios.TablasMultiplicarKt" />
+      <module name="Ios" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.TablasMultiplicarKt" />
+        <item itemvalue="Kotlin.CorreoKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="854f3fdb-510c-4a52-bc84-3dc9e1242638" name="Changes" comment="" />
+      <created>1696323929223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696323929223</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
