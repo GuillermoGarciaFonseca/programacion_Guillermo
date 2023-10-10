@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="854f3fdb-510c-4a52-bc84-3dc9e1242638" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Casa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Reloj/Reloj.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/Reloj/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/example/ios/TablaMultiplicar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/kotlin/com/example/demo1/HelloApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/kotlin/com/example/demo1/HelloController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demo1/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ios.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Ios.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/CorreoKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/HelloApplicationKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ios/TablasMultiplicarKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/LayoutApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/LayoutApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/main-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../T2_Layout/target/classes/com/example/t2_layout/main-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,32 +26,38 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2WFMZ0djoBRZ7zHBsq9O2FOuyPW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Guillermo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36206895",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Guillermo/OneDrive/Documentos/programacion_Guillermo/DAM2/T2/Ios&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36206895&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "HTML"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="CorreoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.ios.CorreoKt" />
@@ -133,8 +104,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696323929223</updated>
+      <workItem from="1696928915773" duration="250000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'main' of https://github.com/GuillermoGarciaFonseca/programacion_Guillermo">
+      <option name="closed" value="true" />
+      <created>1696929014618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696929014618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -146,5 +130,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'main' of https://github.com/GuillermoGarciaFonseca/programacion_Guillermo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/GuillermoGarciaFonseca/programacion_Guillermo" />
   </component>
 </project>
