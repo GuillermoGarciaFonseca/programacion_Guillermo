@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="CENTER" spacing="10" prefWidth="400.0" prefHeight="400.0"
+      fx:controller="com.example.guillermogarcia_t2_d1_dam2.MainController">
+
+    <ToggleButton fx:id="toggleButton" onAction="#handleToggleButtonAction">
+        <graphic>
+            <ImageView>
+                <image>
+                    <Image url="encender.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </ToggleButton>
+
+    <HBox alignment="CENTER" spacing="10">
+        <RadioButton fx:id="puntualRadio" text="Puntual" toggleGroup="$radioGroup" />
+        <RadioButton fx:id="recurrenteRadio" text="Recurrente" toggleGroup="$radioGroup" />
+    </HBox>
+
+    <Button text="Ver Carrito" />
+
+    <Button fx:id="addToCartButton" onAction="#handleAddToCartButtonAction">
+        <graphic>
+            <ImageView>
+                <image>
+                    <Image url="add.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+
+
+    <Label fx:id="messageLabel" />
+
+    <TextField fx:id="productNameField" promptText="Nombre del Producto" />
+    <TextField fx:id="productCategoryField" promptText="Categoría del Producto" />
+    <TextField fx:id="productPriceField" promptText="Precio del Producto" />
+    <Label>Seleccione el Tipo de Producto:</Label>
+
+    </VBox>
+

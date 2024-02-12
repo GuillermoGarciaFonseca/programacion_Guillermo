@@ -4,7 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="854f3fdb-510c-4a52-bc84-3dc9e1242638" name="Changes" comment="">
+    <list default="true" id="854f3fdb-510c-4a52-bc84-3dc9e1242638" name="Changes" comment="PP">
+      <change afterPath="$PROJECT_DIR$/../../Guillermo_GarciaDAM2/src/main/java/com/example/guillermo_garciadam2/model/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Guillermo_GarciaDAM2/src/main/java/com/example/guillermo_garciadam2/model/Paises.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PSPEntrega3/src/main/kotlin/com/example/pspentrega3/Api.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/java/com/example/practicajson/DetalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/java/com/example/practicajson/DialogoPersoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/java/com/example/practicajson/JSONPokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/java/com/example/practicajson/model/Pokemon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/resources/com/example/practicajson/detalle-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/resources/com/example/practicajson/dialogo-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PracticaJSON/src/main/resources/com/example/practicajson/main-v.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/Servidor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/Cliente2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/HelloController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/Server.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/Servidor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/Servidor2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/entrega3/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/entrega3/FormularioService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/entrega3/FormularioServiceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Pspenterga2/src/main/kotlin/com/example/pspenterga2/entrega3/Server3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ServiciosPSp/src/main/kotlin/com/example/serviciospsp/Ftp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Calculadora/src/main/java/com/example/calculadora/CalculatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GuillermoGarcia_T2_D1_DAM2/src/main/resources/com/example/guillermogarcia_t2_d1_dam2/main-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSPentrega/src/main/kotlin/com/example/pspentrega/GYM.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSPentrega/src/main/kotlin/com/example/pspentrega/Google.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSPentrega/src/main/kotlin/com/example/pspentrega/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PSPentrega/src/main/kotlin/com/example/pspentrega/main2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../T2_botones/src/main/java/com/example/t2_botones/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/Pizzeria/src/main/java/model/Ingrediente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/Pizzeria/src/main/java/model/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/Pizzeria/src/main/java/model/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/java/com/example/t3_listas/DetalleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/java/com/example/t3_listas/DialogoPersoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/java/com/example/t3_listas/model/Pelicula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/java/com/example/t3_listas/model/PeliculaJSON.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/resources/com/example/t3_listas/detalle-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/resources/com/example/t3_listas/dialogo-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T3/T3_listas/src/main/resources/com/example/t3_listas/main-v.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T4_Comunicacion/src/main/java/com/example/t4_comunicacion/SecondController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T4_Comunicacion/src/main/resources/com/example/t4_comunicacion/second-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/Concesionario_Hibernate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/Correcion/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/ED/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioGimnasio/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/ExamenFinal3GuillermoGarciaFonseca/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/GimnasioHbn/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/GimnasioHibernate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/PizzeriaMongo/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/Repaso/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/RepasoHibernate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/EjercicioT9/untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/Ejercicios/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/Entornos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/ExamenGuillermoGarciaFonseca/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/ExamenT8/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/GuillermoGarciaFonsecaexamen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/Personas/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T5_estructute/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T5_intro/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T6_herencia/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T7/Correccion_examen/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T7/GuillermoGarciaFonseca2eva/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T7/T6_corrgeido/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T7/T7genericos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T7/excepciones/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T8/Ejercicio_clase/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T8/EjerciciosJSON/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T8/Soccer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T8/T8_ficheros/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T8/T8ejercicios/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T8/lectura_jason/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/T9_basesDatosSQL/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/practica/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../DAM1/projecto1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +105,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,7 +132,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Guillermo/OneDrive/Documentos/programacion_Guillermo/DAM2/T2/Ios&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.36206895&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
@@ -105,6 +191,8 @@
       <option name="presentableId" value="Default" />
       <updated>1696323929223</updated>
       <workItem from="1696928915773" duration="250000" />
+      <workItem from="1702560230982" duration="47000" />
+      <workItem from="1707397811404" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'main' of https://github.com/GuillermoGarciaFonseca/programacion_Guillermo">
       <option name="closed" value="true" />
@@ -114,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696929014618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PP">
+      <created>1696929267994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696929267994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +228,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge branch 'main' of https://github.com/GuillermoGarciaFonseca/programacion_Guillermo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of https://github.com/GuillermoGarciaFonseca/programacion_Guillermo" />
+    <MESSAGE value="PP" />
+    <option name="LAST_COMMIT_MESSAGE" value="PP" />
   </component>
 </project>
