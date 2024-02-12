@@ -15,6 +15,7 @@ public class ClienteAhorcado {
 
     public static void main(String[] args) {
         try {
+                
             String directorioActual = System.getProperty("user.dir");
 
             String rutaAlmacenSrv = directorioActual + File.separator + ALMACEN_SRV;
@@ -51,4 +52,5 @@ SSLContext sslContext = SSLContext.getInstance("TLS");
             e.printStackTrace();
         }
     }
+
 }

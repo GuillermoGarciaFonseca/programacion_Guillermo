@@ -1,0 +1,2 @@
+Nos meteriamos en el cmd y ejecutariamos este comando
+keytool -genkey -alias servidor  -keyalg RSA -keystore AlmacenSrv -storepass 1234567
