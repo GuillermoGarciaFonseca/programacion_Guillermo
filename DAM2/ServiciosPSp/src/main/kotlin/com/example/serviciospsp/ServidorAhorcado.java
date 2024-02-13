@@ -21,36 +21,28 @@ public class ServidorAhorcado {
 
     public static void main(String[] args) {
         try {
-            // Configurar el contexto SSL
             SSLContext sslContext = SSLContext.getInstance("TLS");
 
-            // Cargar el almacén de claves
             KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());
             keyStore.load(new FileInputStream(ALMACEN_SRV), CONTRASENA_ALMACEN_SRV.toCharArray());
 
-            // Crear el administrador de claves
             KeyManagerFactory kmf = KeyManagerFactory.getInstance(KeyManagerFactory.getDefaultAlgorithm());
             kmf.init(keyStore, CONTRASENA_ALMACEN_SRV.toCharArray());
 
-            // Crear el administrador de confianza
             TrustManagerFactory tmf = TrustManagerFactory.getInstance(TrustManagerFactory.getDefaultAlgorithm());
             tmf.init(keyStore);
 
-            // Inicializar el contexto SSL
             sslContext.init(kmf.getKeyManagers(), tmf.getTrustManagers(), null);
 
-            // Crear el socket del servidor
             SSLServerSocketFactory socketFactory = sslContext.getServerSocketFactory();
             SSLServerSocket serverSocket = (SSLServerSocket) socketFactory.createServerSocket(PUERTO);
             serverSocket.setNeedClientAuth(true);
 
-            // Esperar conexiones entrantes
             System.out.println("Servidor iniciado. Esperando conexiones...");
             while (true) {
                 SSLSocket clienteSocket = (SSLSocket) serverSocket.accept();
                 System.out.println("Nuevo cliente conectado.");
 
-                // Manejar la conexión en un hilo separado
                 Thread hiloCliente = new Thread(new ClienteHandler(clienteSocket));
                 hiloCliente.start();
             }
