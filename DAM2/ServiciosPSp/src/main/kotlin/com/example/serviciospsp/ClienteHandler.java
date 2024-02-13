@@ -1,10 +1,17 @@
 package com.example.serviciospsp;
 import javax.net.ssl.SSLSocket;
-import java.io.*;
 import java.util.Arrays;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.Random;
 
 public class ClienteHandler implements Runnable {
     private static final int MAX_INTENTOS = 7;
+    private static final String[] PALABRAS_DEPORTE = {"futbol", "baloncesto", "tenis", "atletismo", "natacion", "ciclismo", "golf", "boxeo", "voleibol", "rugby", "hockey", "badminton", "esgrima", "karate", "surf", "ski", "snowboard", "taekwondo", "escalada", "patinaje", "buceo", "yoga", "pilates", "windsurf", "kitesurf", "paracaidismo", "canotaje", "rafting", "paddle", "parkour", "slackline", "equitacion", "triathlon", "maraton", "crossfit", "kickboxing", "gimnasia", "judo", "baseball", "softball", "waterpolo", "squash", "triatlon", "remo", "handball", "squash", "squash", "squash", "squash"};
+    private static final Random random = new Random();
 
     private SSLSocket clienteSocket;
     private String palabraAdivinar;
@@ -12,9 +19,9 @@ public class ClienteHandler implements Runnable {
     private int intentosRestantes;
     private boolean juegoFinalizado;
 
-    public ClienteHandler(SSLSocket clienteSocket, String palabraAdivinar) {
+    public ClienteHandler(SSLSocket clienteSocket) {
         this.clienteSocket = clienteSocket;
-        this.palabraAdivinar = palabraAdivinar;
+        this.palabraAdivinar = seleccionarPalabraAleatoria();
         this.palabraOculta = new char[palabraAdivinar.length()];
         Arrays.fill(palabraOculta, '_');
         this.intentosRestantes = MAX_INTENTOS;
@@ -96,5 +103,10 @@ public class ClienteHandler implements Runnable {
                 }
             }
         }
+    }
+
+    private String seleccionarPalabraAleatoria() {
+        int indice = random.nextInt(PALABRAS_DEPORTE.length);
+        return PALABRAS_DEPORTE[indice];
     }
 }
