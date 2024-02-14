@@ -1,6 +1,4 @@
 package com.example.entregafinalggfdam2
-
-
 import java.io.DataInputStream
 
 

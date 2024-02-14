@@ -7,7 +7,7 @@ import javax.net.ssl.*
 class Servidor {
 
     private val usuario = "usuario1"
-    private val contraseña = "password1"
+    private val contrasena = "password1"
     fun main() {
         val puerto = 5556
         val keyStorePath = "C:/Users/Guillermo/OneDrive/Documentos/programacion_Guillermo/DAM2/EntregaFinalGGFDAM2/AlmacenSrv"
@@ -61,7 +61,7 @@ class Servidor {
     }
 
     private fun validarCredenciales(usuarioCliente: String, contraseñaCliente: String): Boolean {
-        return usuarioCliente == usuario && contraseñaCliente == contraseña
+        return usuarioCliente == usuario && contraseñaCliente == contrasena
     }
 
     private fun obtenerNombresAgrupados(): String {
