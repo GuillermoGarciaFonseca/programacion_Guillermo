@@ -1,0 +1,4 @@
+Nos metemos en el cmd(Simbolo del sistema)
+copiamos la ruta de nuestro proyecto y ponemos cd ruta de nuestro proyecto
+y ejecutamos este comando
+keytool -genkey -alias servidor  -keyalg RSA -keystore AlmacenSrv -storepass 1234567
